@@ -17,6 +17,13 @@
   --color-purple-100: hsl(264, 82%, 70%);
   --color-purple-200: hsl(263, 55%, 52%);
 
+  /* BACKGROUND COLORS */
+  --color-background: hsla(300, 5%, 96%, 1);
+
+  /* PADDING PAGE */
+  --padding-xl: 4rem;
+  --padding-lg: 3rem;
+
   /* FONTS */
   --font-primary: "Barlow Semi Condensed", sans-serif;
 
@@ -45,10 +52,15 @@ img {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: var(--font-primary);
   min-height: 100vh;
-  background-color: var(--color-white);
+  background-color: var(--color-background);
   line-height: 1.5;
+  padding: var(--padding-xl) var(--padding-lg);
 }
 
 a {
@@ -57,6 +69,13 @@ a {
 
 /* GLOBAL STYLES */
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-400);
+  margin-inline: auto;
+  max-width: 305px;
+}
 /* TYPOGRAPHY */
 
 /* LAYOUT */
