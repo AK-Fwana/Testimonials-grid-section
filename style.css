@@ -41,12 +41,14 @@
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 body {
   font-family: var(--font-primary);
   min-height: 100vh;
   background-color: var(--color-white);
+  line-height: 1.5;
 }
 
 a {
