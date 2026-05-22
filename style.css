@@ -24,6 +24,10 @@
   --padding-xl: 4rem;
   --padding-lg: 3rem;
 
+  /* BORDER RADIUS */
+  --border-md: 0.5rem;
+  --border-lg: 1.75rem;
+
   /* FONTS */
   --font-primary: "Barlow Semi Condensed", sans-serif;
 
@@ -34,10 +38,6 @@
   --spacing-300: 1.5rem;
   --spacing-400: 2rem;
   --spacing-500: 2.5rem;
-
-  /* BORDER RADIUS */
-  --border-radius-100: 0.25rem;
-  --border-radius-200: 0.5rem;
 }
 /* RESET */
 * {
@@ -66,7 +66,6 @@ a {
 }
 
 /* GLOBAL STYLES */
-
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -75,9 +74,44 @@ a {
   width: 100%;
 }
 /* TYPOGRAPHY */
+.testimonial-info h3 {
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.graduate-status {
+  font-size: 0.6875rem;
+}
+
+.testimonial-highlight {
+  margin-top: var(--spacing-200);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.testimonial-quote {
+  margin-top: var(--spacing-200);
+  font-size: 0.8125rem;
+}
 
 /* LAYOUT */
 
 /* COMPONENTS */
+.testimonial {
+  background-color: var(--color-white);
+  padding: var(--spacing-400);
+  border-radius: var(--border-md);
+}
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-200);
+}
+.profile-info img {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+}
 
 /* MEDIA QUERIES */
