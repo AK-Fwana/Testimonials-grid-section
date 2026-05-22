@@ -72,6 +72,7 @@ a {
   gap: var(--spacing-400);
   margin-inline: auto;
   width: 100%;
+  color: var(--color-black);
 }
 /* TYPOGRAPHY */
 .testimonial-info h3 {
@@ -88,18 +89,44 @@ a {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 1.2;
+  position: relative;
+  z-index: 1;
 }
 
 .testimonial-quote {
   margin-top: var(--spacing-200);
   font-size: 0.8125rem;
+  line-height: 1.4;
+}
+
+.testimonial-daniel {
+  background-color: var(--color-purple-200);
+  color: var(--color-white);
+}
+
+.testimonial-jonathan {
+  background-color: var(--color-grey-500);
+  color: var(--color-white);
+}
+
+.testimonial-jeanette {
+  background-color: var(--color-white);
+  color: var(--color-grey-500);
+}
+
+.testimonial-patrick {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+}
+.testimonial-kira {
+  background-color: var(--color-white);
+  color: var(--color-grey-500);
 }
 
 /* LAYOUT */
 
 /* COMPONENTS */
 .testimonial {
-  background-color: var(--color-white);
   padding: var(--spacing-400);
   border-radius: var(--border-md);
 }
