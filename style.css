@@ -123,6 +123,13 @@ a {
   color: var(--color-grey-500);
 }
 
+.graduate-status {
+  opacity: 0.5;
+}
+.testimonial-highlight {
+  opacity: 0.7;
+}
+
 /* LAYOUT */
 
 /* COMPONENTS */
