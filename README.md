@@ -1,6 +1,6 @@
 # Frontend Mentor - Testimonials grid section solution
 
-This my solution to the Testimonials grid section challenge on Frontend Mentor. The goal of this challenge was to build a responsive
+This is my solution to the Testimonials grid section challenge on Frontend Mentor. The goal of this challenge was to build a responsive
 Testimonials grid layout solution
 
 ## Table of contents
@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/AK-Fwana/Testimonials-grid-section)
+- Live Site URL: (https://ak-fwana.github.io/Testimonials-grid-section/)
 
 ## My process
 
