@@ -74,6 +74,13 @@ a {
   width: 100%;
   color: var(--color-black);
 }
+
+.attribution {
+  margin-top: var(--spacing-400);
+  font-size: 0.6875rem;
+  text-align: center;
+  color: var(--color-grey-500);
+}
 /* TYPOGRAPHY */
 .testimonial-info h3 {
   font-size: 0.8125rem;
