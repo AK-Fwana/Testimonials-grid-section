@@ -167,3 +167,21 @@ a {
     grid-column: span 2;
   }
 }
+
+@media (min-width: 64rem) {
+  .container {
+    max-width: 70rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .testimonial-daniel {
+    grid-column: span 2;
+  }
+
+  .testimonial-patrick {
+    grid-column: span 2;
+  }
+
+  .testimonial-kira {
+    grid-row: span 2;
+  }
+}
