@@ -156,3 +156,14 @@ a {
 }
 
 /* MEDIA QUERIES */
+@media (min-width: 48rem) {
+  .container {
+    max-width: 40rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testimonial-daniel,
+  .testimonial-patrick,
+  .testimonial-kira {
+    grid-column: span 2;
+  }
+}
