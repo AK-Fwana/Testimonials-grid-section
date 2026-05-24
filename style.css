@@ -148,4 +148,11 @@ a {
   border-radius: 50%;
 }
 
+.testimonial-daniel {
+  position: relative;
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right var(--spacing-300);
+}
+
 /* MEDIA QUERIES */
